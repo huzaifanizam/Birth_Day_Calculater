@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Calculate</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+   
+
+
+  <section id="registration">
+    <div class="container">
+      <h1>Calculate Time and Date</h1>
+      <form  onsubmit="calculateBMI(); return false">
+        <select  name="month" required
+        step="1"
+        class="heightInputField input"
+        id="monthInputFeild"
+        type="month"
+        min="0"
+        max="10"
+        placeholder="date">
+          <option selected>January</option>
+          <option>February</option>
+          <option>March</option>
+          <option>April</option>
+          <option>May</option>
+          <option>June</option>
+          <option>July</option>
+          <option>August</option>
+          <option>September</option>
+          <option>October</option>
+          <option>November</option>
+          <option>December</option>
+        </select>
+        <br><br>
+        <div class="row">
+          <input required
+          step="1"
+          class="heightInputField input"
+          id="dayInputFeild"
+          type="number"
+          min="0"
+          max="31"
+          placeholder="Date">
+          <i class="fa-regular fa-eye-slash"></i>
+        </div>
+        <br>
+        <button type="submit">Calculate</button>
+        <br>
+        <h4>Welcome! Are you curious to know how close my birthday, wedding anniversary, and any other important milestones are;</h4>
+        <div id="error-message" class="error-message"></div>
+      </form>
+    </div>
+  </section>
+   
+  
+
+      <div class="wrapper">
+        <div class="secondWrapper">
+     
+      
+      
+          <div class="results" id="blockNone">
+
+
+           <p class="result1P">Remaing Months : <span id="result1"></span></p>
+        
+        
+        
+            <p  class="result2P" >Remaing Days : <span id="result2"></span></p>
+        
+        
+        
+            <p class="result3P">Remaing Hours : <span id="result3"></span> </p>
+        
+        
+          </div>
+        </div>
+     </div>
+  </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
