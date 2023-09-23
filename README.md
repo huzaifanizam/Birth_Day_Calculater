@@ -7,7 +7,7 @@
 
 # Getting Started with BMI Calculater App
 
-<a href="https://huzaifanizam.github.io/BMI-CalculaterwithInputandOutput/" target="blank">BMI Calculater App</a>
+<a href="https://huzaifanizam.github.io/Birth_Day_Calculater/" target="blank">It is a calculater Where you calculate how close my birthday, wedding anniversary, and any other important milestones are</a>
 
 - 📫 How to reach me **nizamhuzaifa@gmail.com**
 
